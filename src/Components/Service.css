@@ -1,0 +1,38 @@
+.bg-linear {
+    background: linear-gradient(rgba(5, 195, 243, 0.5), rgba(236, 9, 198, 0.5));
+}
+
+.service {
+    padding: 30px;
+    background: #fff;
+    box-shadow: 0 1px 2px 0px rgba(1, 17, 53, 0.8);
+    transition: .3s all ease-in-out;
+    top: 0;
+    position: relative;
+}
+
+.service:hover {
+    box-shadow: 0 8px 50px -5px rgba(1, 17, 53, 0.8);
+    top: -2px;
+}
+
+.service .service-number {
+    flex: 0 0 60px;
+}
+
+.service .service-about *:last-child {
+    margin-bottom: 0;
+}
+
+.service .service-about h3 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.service .fab {
+    color: #04a5f0;
+}
+
+.service .fab:hover {
+    color: #f004a9;
+}

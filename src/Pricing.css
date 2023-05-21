@@ -1,0 +1,19 @@
+.btn-price {
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 10px 28px;
+    transition: 0.5s;
+    margin-top: 10px;
+    border: 2px solid #04a5f0;
+    color: #000;
+}
+
+.btn-price:hover {
+    background: #04a5f0;
+    border: 2px solid #04a5f0;
+    text-decoration: none;
+    color: #fff;
+}

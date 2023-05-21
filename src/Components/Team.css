@@ -1,0 +1,52 @@
+.member-container {
+    position: relative;
+    overflow: hidden;
+    background: linear-gradient(rgba(5, 195, 243, 0.5), rgba(236, 9, 198, 0.5));
+}
+
+.team-image {
+    transition: all 2s ease-in-out;
+}
+
+.member-container:hover .team-image {
+    transform: translateY(-72px);
+    opacity: 0.5
+}
+
+.team-icons a {
+    color: #fff;
+    font-size: 25px;
+    transition: color 1s ease;
+}
+
+.team-icons a:hover {
+    color: #f004a9;
+}
+
+.member-info {
+    transition: all 2s ease-in-out;
+    backface-visibility: hidden;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 10px;
+    background-color: #04a5f0;
+    transition: all 2s ease-in-out;
+    margin-bottom: -140px;
+}
+
+.member-container:hover .member-info {
+    margin-bottom: 0;
+}
+
+.member-icon a {
+    font-size: 4rem;
+    color: #fff;
+    transition: all 2s ease;
+}
+
+.member-icon a:hover {
+    text-decoration: none;
+    color: #f004a9;
+}
