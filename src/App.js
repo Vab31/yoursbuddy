@@ -27,11 +27,10 @@ function App() {
         Client / >
         <
         Calltoaction / >
-        <
-        Team / > { /* <Pricing /> */ } <
+        // <
+        // Team / > { /* <Pricing /> */ } <
         Footer / >
-        <
-        /div>
+        </div>
     );
 }
 

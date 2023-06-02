@@ -1,7 +1,22 @@
-import React from 'react'
+import React, { useRef } from 'react';
+import emailjs from '@emailjs/browser';
 import './Footer.css'
 
 const Footer = () => {
+const form = useRef();
+  
+    const sendEmail = (e) => {
+      e.preventDefault();
+ 
+      emailjs.sendForm('service_swr3pp2', 'template_vgt8laj', form.current, 'pKw9md76NO9BmXPcI')
+        .then((result) => {
+            window.alert("Message sentWhatsApp Image 2023-05-23 at 5.57.43 PM.jpeg");
+            console.log(result.text);
+        }, (error) => {
+            console.log(error.text);
+        });
+    };
+
   return (
     <div><footer>
     <div id="contact">
@@ -62,8 +77,11 @@ const Footer = () => {
               <a href="#" className="social-icon icon-white">
                 <h3>Contact Us</h3>
               </a>
-              <form action="#">
-                <a href="#" className="social-icon icon-white">
+
+
+
+              <form ref={form} onSubmit={sendEmail}>
+                
                   <input
                     type="text"
                     name="full-name"
@@ -83,14 +101,12 @@ const Footer = () => {
                     className="form-control"
                     defaultValue={""}
                   />
-                </a>
-                <div id="send-btn">
-                  <a href="#" className="social-icon icon-white"></a>
-                  <a className="btn-send btn-lg" href="#">
-                    SEND
-                  </a>
-                </div>
+                 
+                <input type="submit" className='btnsub' value="Send" />
               </form>
+
+
+
             </div>
           </div>
         </div>

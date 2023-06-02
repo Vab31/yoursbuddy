@@ -20,12 +20,12 @@
 }
 
 #hero .container {
-    z-index: 2;
+    z-index: 1;
 }
 
 #hero h1 {
-    margin: 0 0 10px 0;
-    font-size: 48px;
+    margin: 0 0 20px 0;
+    font-size: 60px;
     font-weight: 700;
     line-height: 56px;
     color: #fff;
@@ -55,3 +55,55 @@
     border: 2px solid #04a5f0;
     text-decoration: none;
 }
+body{
+   
+}
+
+.name {
+    position: relative;
+    color: hsl(0, 0%, 68%);
+    font-weight: bold!important;
+    font-family: "Anonymous Pro", monospace!important;
+    letter-spacing: 7px!important;
+    overflow: hidden;
+    border-right: 2px solid hsl(0, 0%, 80%);
+    white-space: nowrap;
+    animation: typewriter 2s steps(80) 1s 1 normal both,
+      blinkTextCursor 500ms infinite;
+    
+    
+  }
+ 
+  
+  
+/* @media screen and (max-width:470px){
+ 
+} */
+  
+  @keyframes typewriter {
+
+    from {
+      width: 0;
+    }
+    to {
+      width: 450px;
+    }
+  }
+  @keyframes blinkTextCursor {
+    from {
+      border-right-color: hsl(0, 0%, 80%);
+    }
+    to {
+      border-right-color: transparent;
+    }
+  }
+  @media screen and (max-width: 470px) {
+    #hero h1 {
+      font-size: 40px;
+    }
+    @keyframes typewriter {
+      to {
+        width: 330px;
+      }
+    }
+  }

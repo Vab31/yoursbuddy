@@ -8,7 +8,7 @@ const Calltoaction = () => {
       <div class="text-center">
         <h3>Call To Action</h3>
         <p>Feel free to Click the button and Our team will Contact you in coming Working Hours</p>
-        <a class="cta-btn" href="#">Call To Action</a>
+        <a class="cta-btn" href="https://wa.me/919999149111">Call To Action</a>
       </div>
 
     </div>

@@ -13,7 +13,7 @@ const Header = () => {
     <header id="header">
   <nav className="navbar navbar-expand-lg px-4">
     <a href="#" className="navbar-brand">
-      <span className="font-weight-bold text-uppercase logo">Yours Buddy</span>
+      <span className="font-weight-bold text-uppercase logo"><h1>Yours Buddy</h1></span>
     </a>
     <button
       type="button"
@@ -28,12 +28,12 @@ const Header = () => {
     <div className="collapse navbar-collapse" id="myNavbar">
       <ul className="navbar-nav text-capitalize mx-auto">
         <li className="nav-item active">
-          <a href="#h" className="nav-link">
+          <a href="#hero" className="nav-link">
             home
           </a>
         </li>
         <li className="nav-item">
-          <a href="#" className="nav-link">
+          <a href="#about" className="nav-link">
             about
           </a>
         </li>
@@ -43,7 +43,7 @@ const Header = () => {
           </a>
         </li>
         <li className="nav-item">
-          <a href="#" className="nav-link">
+          <a href="" className="nav-link">
             team
           </a>
         </li>
@@ -64,7 +64,7 @@ const Header = () => {
           <span className="info-icon mx-lg-3">
             <i className="fab fa-whatsapp-square fa-2x app" />
           </span>
-          <p className="mb-0">+91 9999149111 </p>
+          <p className="mb-0 number">+91 9999149111 </p>
         </div>
         {/* single info */}
       </div>

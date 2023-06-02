@@ -59,6 +59,8 @@ form .form-control {
 #footer-menu {
     float: left;
     color: #000;
+    
+     
     font-size: 16px;
     font-weight: 300;
 }
@@ -74,13 +76,17 @@ form .form-control {
 }
 
 #footer-menu a {
-    color: #000;
+    /* color: #000; */
+    color:white;
+   
     font-size: 20px;
     font-weight: light;
     margin: 0 10px;
     text-decoration: none;
 }
-
+#footer-menu a:hover{
+    color:black
+}
 
 /*====================================================
                          SOCIAL
@@ -129,4 +135,14 @@ form .form-control {
     border: 2px solid #04a5f0;
     text-decoration: none;
     color: #fff;
+}
+
+.btnsub{
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    padding: 10px 60px;
+    border-radius: 5px;
+    margin: 10px 0px;
+    cursor: pointer;
 }

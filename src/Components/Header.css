@@ -2,18 +2,27 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: #434e68;
+  
 }
 
 body {
     font-family: 'Amaranth', sans-serif;
+  
+}
+nav{
+    /* background-color: rgba(6, 56, 183, 0.744); */
+    background-color: rgba(5, 195, 243, 0.5);
+    
 }
 
 .logo {
-    color: #04a5f0;
+    color:whitesmoke;
 }
 
-
+.number{
+    color: white;
+    font-size: larger;
+}
 /* nav links */
 
 .navbar-toggler {
@@ -22,11 +31,11 @@ body {
 
 .toggler-icon {
     font-size: 40px;
-    color: #04a5f0;
+    color: white;
 }
 
 .nav-link {
-    color: #04a5f0;
+    color: white;
     transition: all 1s ease-in-out;
     font-size: 24px;
 }
